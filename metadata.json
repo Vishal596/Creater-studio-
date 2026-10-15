@@ -1,0 +1,6 @@
+{
+  "name": "PromptAura",
+  "description": "Discover curated AI art and video prompts, inspect generation recipes, remix ideas, build character personas, and generate creative visual content.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

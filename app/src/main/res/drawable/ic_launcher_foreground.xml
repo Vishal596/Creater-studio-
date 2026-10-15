@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Rounded Frame -->
+    <path
+        android:pathData="M34,26 L74,26 C78.4,26 82,29.6 82,34 L82,74 C82,78.4 78.4,82 74,82 L34,82 C29.6,82 26,78.4 26,74 L26,34 C26,29.6 29.6,26 34,26 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#448B5CF6"
+        android:fillColor="#22141824" />
+
+    <!-- Central AI Sparkle Star -->
+    <path
+        android:pathData="M54,34 C54,44 44,54 34,54 C44,54 54,64 54,74 C54,64 64,54 74,54 C64,54 54,44 54,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="34"
+                android:startY="34"
+                android:endX="74"
+                android:endY="74"
+                android:type="linear">
+                <item android:color="#00E5FF" android:offset="0.0" />
+                <item android:color="#8B5CF6" android:offset="0.6" />
+                <item android:color="#F43F5E" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Small Accent Sparkle Top Right -->
+    <path
+        android:pathData="M69,33 C69,37 65,41 61,41 C65,41 69,45 69,49 C69,45 73,41 77,41 C73,41 69,37 69,33 Z"
+        android:fillColor="#FFFFFF" />
+</vector>
